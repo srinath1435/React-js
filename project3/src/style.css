@@ -1,0 +1,9 @@
+h1{
+    color: rgb(32, 74, 137);
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 0 10px rgb(150, 100, 100);
+    display: inline;
+    padding-right: 50px;
+    margin-left: 10px;
+
+}

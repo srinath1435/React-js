@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Go from './components/app'
+import DU from './components/app.js'
 
 function App() {
   return (
     <div>
-      <Go/>
+      <DU/>
     </div>
   );
 }

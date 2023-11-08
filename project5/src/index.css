@@ -7,7 +7,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h1{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px black ;
+
+}
+h1:hover{
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: 900;
 }
