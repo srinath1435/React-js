@@ -25,17 +25,19 @@ class Product extends Component {
             <div className="col-md-6    ">
                 <table className='table table-hover'>
                     <thead className='table  bg-info'>
+                        <tr>
                         <th>P-name</th>
                         <th>image</th>
                         <th>quantity</th>
                         <th>price</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>{this.state.pname}</td>
                             <td><img src={this.state.img} height="100px" /></td>
-                            <td>
-                                <i className='fa fa-minus-circle' onClick={this.decHandler}></i>
+                            <td>{this.state.qty > 0 ? <><i className='fa fa-minus-circle' onClick={this.decHandler}></i></> : null}
+                                {/* <i className='fa fa-minus-circle' onClick={this.decHandler}></i> */}
                                 {this.state.qty}
                                 <i className='fa fa-plus-circle' onClick={this.incrHandler}></i>
                                 </td>
